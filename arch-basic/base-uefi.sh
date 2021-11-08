@@ -14,7 +14,7 @@ echo "ArchPad" >> /etc/hostname
 echo "127.0.0.1 localhost" >> /etc/hosts
 echo "::1       localhost" >> /etc/hosts
 echo "127.0.1.1 ArchPad.localdomain ArchPad" >> /etc/hosts
-echo root:password | chpasswd
+echo root:password | chpasswd #user_name:new_password
 # You can add xorg to the installation packages, I usually add it at the DE or WM install script
 # You can remove the tlp package if you are installing on a desktop or vm пакет для управления питанием
 
