@@ -1,0 +1,10 @@
+#Keyboard Layaut
+setxkbmap -layout "us,ru" # Установит раскладки us и ru
+setxkbmap -option "grp:caps_toggle,grp_led:scroll"
+
+# Wallpaper
+nitrogen --restore &
+
+# Compositor
+picom -f &
+
