@@ -1,7 +1,7 @@
 import XMonad
 
 main = xmonad def
-  {terminal = "allacrity"
+  {terminal = "alacritty"
   , modMask = mod4Mask
   , borderWidth = 3
   }
