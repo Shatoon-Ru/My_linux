@@ -17,7 +17,7 @@ sudo pacman -S xorg firefox  arc-gtk-theme arc-icon-theme dina-font tamsyn-font 
 # sudo flatpak install -y spotify
 # sudo flatpak install -y kdenlive
 
-sudo systemctl enable gdm
+# sudo systemctl enable gdm
 /bin/echo -e "\e[1;32mREBOOTING IN 5..4..3..2..1..\e[0m"
 # sleep 5
 # sudo reboot
